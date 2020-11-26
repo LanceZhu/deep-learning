@@ -40,3 +40,4 @@ $ python main.py
 | OS   | Windows10 中 wsl  |
 | CPU  | Core(TM) i7-6500U |
 | RAM  | 12GB              |
+
