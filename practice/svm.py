@@ -8,6 +8,7 @@ from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
+# import pickle
 
 # iris = load_iris()
 # x = iris.data
@@ -59,3 +60,7 @@ svc.fit(train_image_arr, train_label_arr)
 print(svc.predict(test_image_arr))
 
 print(accuracy_score(svc.predict(test_image_arr), test_label_arr))
+
+# output = open('svm.pkl', 'wb')
+# pickle.dump(svc, output)
+# output.close()

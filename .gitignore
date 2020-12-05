@@ -1,1 +1,4 @@
 practice/data/MNIST
+*.pyc
+*/__pycache
+flask/models/state

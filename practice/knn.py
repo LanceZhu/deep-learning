@@ -7,6 +7,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
+# import pickle
 
 # iris = load_iris()
 # x = iris.data
@@ -54,6 +55,10 @@ for batch_idx, data in enumerate(test_loader, 0):
 
 knn = KNeighborsClassifier(10)
 knn.fit(train_image_arr, train_label_arr)
+
+# output = open('knn.pkl', 'wb')
+# pickle.dump(knn, output)
+# output.close()
 
 # print(knn.predict(train_image_arr))
 

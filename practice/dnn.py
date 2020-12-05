@@ -79,3 +79,4 @@ if __name__=="__main__":
     for epoch in range(10):
         train(epoch)
         test()
+    # torch.save(model.state_dict(), 'dnn')
