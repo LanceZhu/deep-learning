@@ -1,4 +1,4 @@
-practice/data/MNIST
+pytorch/data/MNIST
 *.pyc
 */__pycache
 flask/models/state

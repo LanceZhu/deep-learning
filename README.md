@@ -13,9 +13,15 @@ deep learning 学习/实践
 
 数据集：http://yann.lecun.com/exdb/mnist/
 
-#### PyTorch 实现
+#### PyTorch
 
-官方示例 examples/mnist - https://github.com/pytorch/examples/tree/master/mnist
+##### 本仓库实现
+
+[./pytorch/README.md](./pytorch/README.md)
+
+##### 官方示例
+
+examples/mnist - https://github.com/pytorch/examples/tree/master/mnist
 
 ```bash
 $ git clone https://github.com/pytorch/examples.git
@@ -24,7 +30,7 @@ $ pip install -r requirements.txt
 $ python main.py
 ```
 
-##### 模型效果
+**模型效果**
 
 | 指标         | 内容   |
 | ------------ | ------ |
@@ -33,11 +39,10 @@ $ python main.py
 | 准确率       | 99%    |
 | Average loss | 0.0266 |
 
-##### 软硬件信息
+**软硬件信息**
 
 | 指标 | 内容              |
 | ---- | ----------------- |
 | OS   | Windows10 中 wsl  |
 | CPU  | Core(TM) i7-6500U |
 | RAM  | 12GB              |
-
